@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="formatclass.xsl"?>
+<!DOCTYPE class[
+<!ELEMENT class (student+)>
+<!ELEMENT student (fname,lname,country,email)>
+<!ELEMENT fname (#PCDATA)>
+<!ELEMENT lname (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+]
+>
+<class>
+    <student>
+        <fname>Jaka</fname>
+        <lname>Dhita Ramandha</lname>
+        <country>Indonesia</country>
+        <email>jakadr30@gmail.com</email>
+    </student>
+    <student>
+        <fname>Mark</fname>
+        <lname>alexa</lname>
+        <country>Canada</country>
+        <email>markA@gmail.com</email>
+    </student>
+    <student>
+        <fname>David</fname>
+        <lname>araaya</lname>
+        <country>Maldive</country>
+        <email>araayadavid@gmail.com</email>
+    </student>
+ </class>       
+
+
+

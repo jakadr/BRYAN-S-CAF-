@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="page.xsl"?>
+
+<!DOCTYPE menu
+[
+<!ELEMENT menu (page+)>Z
+<!ELEMENT page (title,address)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+]>
+
+
+
+<menu>
+    <page>
+        <title>Home</title>
+        <address>index.html</address>       
+    </page>
+    <page>
+        <title>Products</title>
+        <address>products.html</address>       
+    </page>
+    <page>
+        <title>About</title>
+        <address>about.html</address>       
+    </page>
+    <page>
+        <title>Contact</title>
+        <address>contact.html</address>       
+    </page>
+    <page>
+        <title>Test</title>
+        <address>test.html</address>       
+    </page>
+        
+</menu>
