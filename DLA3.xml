@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="DLA3.xsl"?>
+<!DOCTYPE pizzamenu[
+
+<!ELEMENT pizzamenu (item+)>
+<!ELEMENT item (name,price,pic)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT pic (#PCDATA)>
+]
+>
+<!-- root element -->
+<pizzamenu>
+<!-- child element -->
+    <item>
+        <name>Chicken Pizza</name>
+        <price>$15.95</price>
+        <pic>images/chickenpizza.jpg</pic>    
+    </item>
+    <item>
+        <name>Hawaian Pizza</name>
+        <price>$25.95</price>
+        <pic>images/hawaiapizza.jpg</pic>    
+    </item>
+    <item>
+        <name>Pepperoni Pizza</name>
+        <price>$17.95</price>
+        <pic>images/pepperonipizza.jpg</pic>    
+    </item>
+    <item>
+        <name>Vegie Pizza</name>
+        <price>$14.95</price>
+        <pic>images/vegiepizza.jpg</pic>    
+    </item>
+ 
+    <item>
+        <name>Chicken Pizza</name>
+        <price>$15.95</price>
+        <pic>images/chickenpizza.jpg</pic>    
+    </item>
+    <item>
+        <name>Hawaian Pizza</name>
+        <price>$25.95</price>
+        <pic>images/hawaiapizza.jpg</pic>    
+    </item>
+    <item>
+        <name>Pepperoni Pizza</name>
+        <price>$17.95</price>
+        <pic>images/pepperonipizza.jpg</pic>    
+    </item>
+    <item>
+        <name>Vegie Pizza</name>
+        <price>$14.95</price>
+        <pic>images/vegiepizza.jpg</pic>    
+    </item>
+ 
+    <item>
+        <name>Chicken Pizza</name>
+        <price>$15.95</price>
+        <pic>images/chickenpizza.jpg</pic>    
+    </item>
+    <item>
+        <name>Hawaian Pizza</name>
+        <price>$25.95</price>
+        <pic>images/hawaiapizza.jpg</pic>    
+    </item>
+    <item>
+        <name>Pepperoni Pizza</name>
+        <price>$17.95</price>
+        <pic>images/pepperonipizza.jpg</pic>    
+    </item>
+    <item>
+        <name>Vegie Pizza</name>
+        <price>$14.95</price>
+        <pic>images/vegiepizza.jpg</pic>    
+    </item>
+ 
+    
+   
+</pizzamenu>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/branches.xsl"?>
+<!DOCTYPE cafe[
+<!ELEMENT cafe (branch+)>
+<!ELEMENT branch (address,contact,open,maplink)>
+<!ELEMENT address (state,suburb,street)>
+<!ELEMENT open (mf,ss)>
+<!ELEMENT state (#PCDATA)>
+<!ELEMENT suburb (#PCDATA)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT contact (#PCDATA)>
+<!ELEMENT mf (#PCDATA)>
+<!ELEMENT ss (#PCDATA)>
+<!ELEMENT maplink (#PCDATA)>
+]
+>
+<!-- roo element -->
+<cafe>
+<!-- child element -->
+    <branch>
+        <address>
+            <state>NSW</state>
+            <suburb>Surry Hill</suburb>
+            <street>76 Devonshire street</street>
+        </address>
+        
+        <contact>02 9211 1234</contact>
+        
+        <open>
+            <mf>6:00 to 14:30</mf>
+            <ss>7:00 to 15:00</ss>
+        </open>
+        <maplink>https://www.google.com/maps/place/76+Devonshire+St,+Surry+Hills+NSW+2010/@-33.8859497,151.2055625,17z/data=!3m1!4b1!4m5!3m4!1s0x6b12ae21aea44cd5:0xcf2d54666d7cca73!8m2!3d-33.8859497!4d151.2077512</maplink>
+       
+    </branch>
+    <branch>
+        <address>
+            <state>NSW</state>
+            <suburb>Haymarket Sydney</suburb>
+            <street>451 Pitt street</street>
+        </address>
+        
+        <contact>02 9262 5678</contact>
+        
+        <open>
+            <mf>6:00 to 16:00</mf>
+            <ss>7:00 to 15:00</ss>
+        </open>
+        <maplink>https://www.google.com/maps/place/451+Pitt+St,+Sydney+NSW+2000/@-33.8796203,151.2045834,17z/data=!3m1!4b1!4m5!3m4!1s0x6b12ae23192f282b:0x506728c0b18a4f49!8m2!3d-33.8796248!4d151.2067721</maplink>
+       
+    </branch>
+    <branch>
+        <address>
+            <state>NSW</state>
+            <suburb>Cirqular Quay</suburb>
+            <street>31 Alfred Street</street>
+        </address>
+        
+        <contact>02 8971 9101 </contact>
+        
+        <open>
+            <mf>6:00 to 16:00</mf>
+            <ss>7:00 to 15:00</ss>
+        </open>
+        <maplink>https://www.google.com/maps/place/31+Alfred+St,+Sydney+NSW+2000/@-33.8621849,151.2087172,17z/data=!3m1!4b1!4m5!3m4!1s0x6b12ae69daa2f96f:0x735f85193da40a66!8m2!3d-33.8621894!4d151.2109059</maplink>
+       
+    </branch>
+  
+ </cafe>       
+
+
+
