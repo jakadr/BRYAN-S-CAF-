@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../xsl/xslcafemenu.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/cafemenu.xsl"?>
+
 <!DOCTYPE cafemenu[
 
 <!ELEMENT cafemenu (item+)>
@@ -19,70 +20,70 @@
         <name>Beetroot and feta salad</name>
         <price>$15.00</price>
         <description> Suitable for vegetarian, made with fresh beetroot</description>
-        <pic>../images/saladbeetroot.jpg</pic>    
+        <pic>../images/beet.jpg</pic>    
     </item>
     <item>
         <category>Meals</category>
         <name>Sourdough Rye Dandwich</name>
         <price>$18.00</price>
         <description> Cheese and salad sandwich made with organic, sourdough rye bread</description>
-        <pic>../images/sourdoughrye.jpg</pic>    
+         <pic>../images/sour.jpg</pic>    
     </item>
     <item>
         <category>Meals</category>
         <name>Spinach Pie and Salad </name>
         <price>$20.00</price>
         <description> Tasty pie with salad </description>
-        <pic>../images/SpinachPie.jpg</pic>    
+     <pic>../images/spinach.jfif</pic>     
     </item>
     <item>
         <category>Meals</category>
         <name>Feta pancakes with salad </name>
         <price>$19.50</price>
         <description> Tasty pancake filled with feta and salad</description>
-        <pic>../images/FetaPancake.jpg</pic>    
-    </item>
+      <pic>../images/feta.jpeg</pic>  
+      </item>
     <item>
         <category>Baverage</category>
         <name>Coffee and hot chocolates Small </name>
         <price>$3.50</price>
         <description>For coffee, please inform the staff of the coffee type</description>
-        <pic>../images/smallcup.jpg</pic>    
+       <pic>../images/smallc.jfif</pic>     
     </item>
     <item>
         <category>Baverage</category>
         <name>Coffee and hot chocolates Regular </name>
         <price>$4.00</price>
         <description>For coffee, please inform the staff of the coffee type</description>
-        <pic>../images/regularcup.jpg</pic>    
+      <pic>../images/mediumc.jfif</pic>     
     </item>
     <item>
         <category>Baverage</category>
         <name>Coffee and hot chocolates Large </name>
         <price>$4.50</price>
         <description>For coffee, please inform the staff of the coffee type</description>
-        <pic>../images/Largecup.jpg</pic>    
+       <pic>../images/largec.jpg</pic>      
     </item>
     <item>
         <category>Other Baverage</category>
         <name>soda</name>
         <price>$3.00</price>
-        <description>soda</description>
-        <pic>../images/soda.jpg</pic>    
+        <description>Soft Drink</description>
+      <pic>../images/soda.jpg</pic>     
     </item>
     <item>
         <category>Other Baverage</category>
-        <name>fresh juice</name>
+        <name>Fresh juice</name>
         <price>$6.00</price>
-        <description>fresh juice</description>
-        <pic>../images/juice.jpg</pic>    
+        <description>Custom Juice</description>
+     <pic>../images/juice.jpg</pic>     
     </item>
     <item>
         <category>Other Baverage</category>
         <name>Bottled water</name>
         <price>$2.00</price>
         <description>Bottled water</description>
-        <pic>../images/water.jpg</pic>    
+        <pic>../images/water.jpg</pic>      
     </item>
    
 </cafemenu>

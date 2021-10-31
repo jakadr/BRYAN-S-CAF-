@@ -34,24 +34,24 @@
     </item>
  
     <item>
-        <name>Chicken Pizza</name>
+        <name>bbq bacon Pizza</name>
+        <price>$19.95</price>
+        <pic>images/specialpizza.jpg</pic>    
+    </item>
+    <item>
+        <name>lebanese Pizza</name>
+        <price>$20.95</price>
+        <pic>images/lebanesepizza.jpg</pic>    
+    </item>
+    <item>
+        <name>Gluten free Pizza</name>
         <price>$15.95</price>
-        <pic>images/chickenpizza.jpg</pic>    
+        <pic>images/glutenfreepizza.jpg</pic>    
     </item>
     <item>
-        <name>Hawaian Pizza</name>
-        <price>$25.95</price>
-        <pic>images/hawaiapizza.jpg</pic>    
-    </item>
-    <item>
-        <name>Pepperoni Pizza</name>
-        <price>$17.95</price>
-        <pic>images/pepperonipizza.jpg</pic>    
-    </item>
-    <item>
-        <name>Vegie Pizza</name>
-        <price>$14.95</price>
-        <pic>images/vegiepizza.jpg</pic>    
+        <name>Paleo Pizza</name>
+        <price>$18.95</price>
+        <pic>images/paleopizza.jpg</pic>    
     </item>
  
     <item>
