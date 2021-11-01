@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../xsl/branches.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/branceh.xsl"?>
 <!DOCTYPE cafe[
 <!ELEMENT cafe (branch+)>
 <!ELEMENT branch (address,contact,open,maplink)>
